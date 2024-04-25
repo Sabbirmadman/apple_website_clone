@@ -48,7 +48,7 @@ const Navbar = () => {
         id="menu"
         className={`fixed -top-[100vh] right-0 h-[100vh] w-full hidden max-sm:block`}
       >
-        <div className="flex flex-col h-full  bg-gray-900 p-5 pt-10 relative">
+        <div className="flex flex-col h-full  bg-zinc p-5 pt-10 relative">
           {navLists.map((nav) => (
             <div
               key={nav}
